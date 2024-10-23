@@ -1,0 +1,27 @@
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  grid-gap: 20px;
+}
+
+.Card {
+  border: 1px solid #aad0bd;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.Card h2 {
+  text-decoration: underline;
+  text-decoration-color: #aad0bd;
+}
+
+.Card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Container {
+    grid-template-columns: 1fr;
+  }
+}
