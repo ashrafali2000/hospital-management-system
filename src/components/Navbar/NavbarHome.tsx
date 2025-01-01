@@ -76,8 +76,8 @@ export const NavbarHome = () => {
           <Image
             src="/logo.png"
             alt="MedSuite logo"
-            width="150px"
-            height="80px"
+            width={100}
+      height={100}
             objectFit="contain"
             onClick={() => {
               if (!authUser) router.push("/");
